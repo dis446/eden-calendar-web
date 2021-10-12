@@ -1,4 +1,4 @@
-import GoogleAuth from './components/GoogleAuth';
+import GoogleAuth from './component/GoogleAuth';
 
 const App = () => {
   return <GoogleAuth/>;
