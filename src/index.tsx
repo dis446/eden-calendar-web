@@ -5,6 +5,8 @@ import './index.css';
 import App from './App';
 import store from './store/store';
 
+console.debug('CLIENT: ', process.env.REACT_APP_GOOGLE_CLIENT_ID);
+
 render(
   <Provider store={store}>
     <App/>
